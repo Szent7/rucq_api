@@ -19,3 +19,8 @@ services:
     restart: always
     ports:
       - 8080:8080
+
+  rucq_api:
+    build: .
+    ports:
+      - 10015:10015
